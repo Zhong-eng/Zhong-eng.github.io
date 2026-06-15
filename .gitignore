@@ -11,3 +11,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Private full resumes — contain sensitive personal info (phone, address). Never publish.
+resume/

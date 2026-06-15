@@ -2,64 +2,20 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected work in large language models, NLP, and machine learning.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Large Language Models &amp; Finance
 
-{% else %}
+- **LLMs for Stock Return Prediction** — fine-tune open-source large language models on financial text such as earnings calls to generate forward-looking investment signals.
+- **Earnings Call Analysis with LLMs** — apply LLMs and retrieval-augmented generation (RAG) to summarize and evaluate earnings call transcripts and surface investment insights.
+- **Company Peer Identification via Text Embeddings** — use text embeddings to find related company peers beyond traditional sector classifications.
 
-<!-- Display projects without categories -->
+## Machine Learning &amp; NLP
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+- **AI Teaching Assistant** — a retrieval-augmented QA assistant (GPT-4o) that helps instructors answer student questions and reduces repetitive workload.
+- **Interpretable Medical Image Classification** — interpretable deep learning for pneumonia X-ray classification using CNNs and Grad-CAM (published at CONF-SPML 2021).
+- **Weakly Supervised Cell-Image Segmentation** — segment microscopy cell images using only image-level labels, reducing the need for costly pixel-level annotation.
+- **Algorithmic Fairness in Machine Learning** — measure and optimize fairness metrics during model training to build more equitable models.

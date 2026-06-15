@@ -1,97 +1,52 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Computational Data Science
+      institution: <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "<em>Selected coursework:</em> Large Language Models, Generative AI, Machine Learning on Large Datasets"
+    - title: B.S. in Computer Science and Data Science
+      institution: <a href="https://umich.edu/" target="_blank" rel="noopener">University of Michigan</a>
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "<em>Selected coursework:</em> Machine Learning, Computer Vision, Natural Language Processing"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: AI &amp; Data Science Associate, Quantitative Research
+      institution: <a href="https://www.jpmorganchase.com/" target="_blank" rel="noopener">JPMorgan Chase</a>
+      year: 2025 - Present
+    - title: AI &amp; Data Science Summer Associate, Quantitative Research (Internship)
+      institution: <a href="https://www.jpmorganchase.com/" target="_blank" rel="noopener">JPMorgan Chase</a>
+      year: 2024
+    - title: Data Science Summer Intern
+      institution: <a href="https://ai-camp.org/" target="_blank" rel="noopener">AI Camp</a>
+      year: 2023
+    - title: Research Assistant
+      institution: <a href="https://www.engin.umich.edu/" target="_blank" rel="noopener">University of Michigan, College of Engineering</a>
+      year: 2022
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - James B. Angell Scholar, University of Michigan
+        - University Honors, University of Michigan
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Large language models for finance
+    - Natural language processing and text embeddings
+    - Retrieval-augmented generation and LLM evaluation
+    - Interpretable and trustworthy machine learning
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <u>Programming:</u> Python (PyTorch, Scikit-Learn, NumPy, Pandas), SQL, R, C/C++
+    - <u>ML &amp; LLM:</u> LLM fine-tuning (LoRA), RAG &amp; vector databases, prompt engineering, text embeddings, LLM evaluation
+    - <u>Tools:</u> Spark, Docker, Kubernetes, CI/CD, AWS, Azure, GCP

@@ -2,24 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI &amp; Data Science Associate, Quantitative Research at <a href="https://www.jpmorganchase.com/" target="_blank">JPMorgan Chase</a> · Large Language Models for Finance
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>New York, NY</p>
+    <p>zhongzhe [at] alumni [dot] cmu [dot] edu</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm **Zhong Zheng**. I build large language model (LLM) systems for financial research and investing — bringing modern NLP to the unstructured text behind markets.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work focuses on:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **Fine-tuning open-source LLMs** for financial-text understanding
+- **Retrieval-augmented generation (RAG)** over earnings calls, filings, and reports
+- **Text embeddings** for measuring company similarity and relationships
+- **Rigorous evaluation** to keep model outputs reliable and interpretable
+
+Before industry, I earned an M.S. in Computational Data Science from <a href="https://www.cmu.edu/" target="_blank" rel="noopener"><strong style="color: var(--global-theme-color)">Carnegie Mellon University</strong></a> and a B.S. in Computer Science and Data Science from the <a href="https://umich.edu/" target="_blank" rel="noopener"><strong style="color: var(--global-theme-color)">University of Michigan</strong></a>, with earlier research in interpretable machine learning and computer vision.
+
+I'm always glad to connect with people working on **LLMs for finance** and trustworthy AI — feel free to reach out.
